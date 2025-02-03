@@ -1,0 +1,20 @@
+
+.pocketSand {
+    position: fixed;
+    background: rgba(0, 0, 0, 1);
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: calc(var(--z-index-canvas) + 1);
+}
+
+.pocket-sand-list { 
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  display: grid;
+}
